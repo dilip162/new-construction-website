@@ -271,6 +271,7 @@ button span:hover{
 
 .carousel{
     margin-bottom: 3rem;
+    z-index: -20;
 }
 
 
@@ -282,7 +283,7 @@ button span:hover{
     text-decoration: none;
 }
 
-.top_part_container a{
+.top_part a{
 
     border-right: 1px solid black;
     padding: 0 1rem;

@@ -38,4 +38,26 @@ let menuBox=document.getElementById('menuBox')
         
         } 
 
+let carousel=document.getElementById('carouselExampleInterval')
+let paragraph=document.querySelectorAll('p')
+let screenWidth=window.innerWidth
+
+function responsive(){
+    if(screenWidth<=650){
+        paragraph.forEach((para)=>{
+            para.classList.remove('w-75')
+        })
+        carousel.classList.remove('w-75')
+    }
+   else if(screenWidth>650){
+        carousel.classList.add('w-75')
+        paragraph.forEach((para)=>{
+            para.classList.add('w-75')
+        })
+    }
+}
+
+
+responsive()
+
        

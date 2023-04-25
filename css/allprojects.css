@@ -296,6 +296,11 @@ top: 0;
 right: 0;
 }
 
+.width{
+    width: 75%;
+}
+
+
 
 
 .overlay p{
@@ -390,6 +395,7 @@ right: 0;
         padding: 0 0.5rem;
         width: 25px;     
     }
+ 
 }
 
 @media screen and (max-width: 650px) {
@@ -398,10 +404,19 @@ right: 0;
         width:0;     
     }
 
+    .width{
+        width: 100%;
+    }
+
     .top_part_container{
         grid-template-columns: 1fr;
         gap: 10px;
       }
+
+      .top_part {
+        width: 100%;
+        padding: 3rem 2rem;
+    }
 
       .box{
         height: 350px;
@@ -418,6 +433,15 @@ right: 0;
         margin-bottom: 40px;
     }
 }
+
+@media screen and (max-width: 360px){
+    .navbar_container_custom h1{
+        font-size: 2rem;
+    }
+}
+
+
+
 
 
 
