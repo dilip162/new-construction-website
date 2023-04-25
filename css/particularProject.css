@@ -271,7 +271,7 @@ button span:hover{
 
 .carousel{
     margin-bottom: 3rem;
-    z-index: -20;
+    /* z-index: -20; */
 }
 
 
