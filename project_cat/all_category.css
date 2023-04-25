@@ -116,6 +116,7 @@ html{
     overflow: hidden;
     border-bottom-left-radius: 100%;
     transition: width 0.5s, height 0.5s border-radius 0.5s;
+    z-index: 1000;
 }
 
 .menu-box.open-menu{
@@ -220,7 +221,7 @@ html{
     text-decoration: none;
 }
 
-.top_part a{
+.top_part>a{
 
     border-right: 1px solid black;
     padding: 0 1rem;
