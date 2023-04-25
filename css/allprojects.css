@@ -62,11 +62,12 @@ html{
   font-size: 4rem;
 }
 
-.navbar_container_custom h1{
+.navbar_container_custom h1 a{
     font-size: 4rem;
     color: black;
     font-weight: 600;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .navbar_container_custom ul{
