@@ -1,0 +1,290 @@
+
+/* ################### 1240px ############### */
+
+@media screen and (max-width: 1240px){
+
+    .section_two::after{
+        background-size: 100%;
+        width: 258px;
+        height: 234px;
+    }
+
+    .sectors{
+        left: -12%;
+        top: 62%;
+        font-size: 12rem;
+        font-weight: 800;
+    }
+
+    .para{
+        width: 95%;      
+    }
+
+    .section_two_container_custom{
+        width: 90%;
+    }
+
+    .what{
+        margin-top: 0rem;        
+        padding-bottom: 4rem;       
+    }
+}
+
+
+
+@media screen and (max-width: 1000px){
+    .sectors{
+        left: -12%;
+        top: 65%;
+        font-size: 9rem;
+        font-weight: 700; 
+        line-height: 1;
+    }
+
+    .section_two::after{
+        width: 158px;
+        height: 134px;
+        background-size: 100%;
+    }
+  
+}
+
+
+
+/* ############# 940px  ############## */
+
+@media screen and (max-width: 940px) {
+
+    .sectors{
+        left: -12%;
+        top: 40%; 
+        font-size: 8rem;
+        font-weight: 600;
+    }
+
+    #menuIcon,#menuBox{
+        display: block;
+    }
+
+    .navbar_container_custom ul{
+        display: none;
+    }
+
+    .navbar_container_custom h1{
+        margin-left: 1rem;
+    }
+
+    .boxes{
+        align-items: start;
+    }
+
+    .box{
+        margin: 5rem 0;
+    }
+
+    .container_custom{
+        background-position: center;
+    }
+
+    .boxes{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        
+    }
+
+
+    .section_two_container_custom{
+        padding-bottom: 6rem;
+        text-align: left;
+    }
+
+    .box_img_container_custom img{
+        width: 10rem;
+        height: 8rem;
+    }
+    
+    .para{
+        padding: 4rem 0;
+    }
+    
+    
+    .para p{
+        font-size: 1.6rem;
+        color: #233b44;
+        margin-bottom: 26px;
+        width: 95%;    
+        text-align: justify;      
+    }
+
+    /* --------------- section_two after -------------- */
+    
+  }
+
+
+  @media screen and (max-width: 700px){
+
+    .sectors{
+        left:-10%;
+        top: 40%;
+        font-size: 6rem;
+        font-weight: 500;
+    }
+
+    .section_two::after{
+        width: 148px;
+        height: 90px;
+        background-size: 100%;
+    }
+  }
+
+
+
+
+  @media screen and (max-width: 655px){
+    #menuIcon{
+        width: 45px;
+        border-radius: 50%;
+        position: absolute;
+        top: 25px;
+        right: 30px;
+        cursor: pointer;
+        z-index: 100;
+        display: block;
+    }
+
+    .navbar_container_custom h1{
+        font-size: 3rem;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .navbar_container_custom{
+        padding: 2rem 0 1rem 0;
+    }
+
+    .container_custom{
+        background-position: right -10px bottom 10px;
+    }
+    
+  }
+
+
+
+  @media screen and (max-width: 570px){
+
+    .product-image {        
+        height: 20rem;               
+      }
+
+    .product-image img{
+        width: 45vw;        
+      }
+
+      .overlay p{
+        color:white;
+        font-size: 15px;
+        font-weight: 500;
+        position: absolute;
+        bottom: 30%;
+        /* left: 50%; */
+        /* padding: 0px 0px; */
+      
+      }
+
+    
+  }
+
+
+  @media screen and (max-width: 550px){
+
+    .sectors{
+        left:-10%;
+        top: 35%;
+        font-size: 5rem;
+        font-weight: 500;
+    }
+  }
+
+  @media screen and (max-width: 470px){
+    .what_container_custom{
+        padding-left: 1.5rem;
+    }
+
+    .sectors{
+        left:-10%;
+        top: 38%; 
+        font-size: 4.5rem;
+        font-weight:400;
+    }
+
+    .section_two::after{
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 420px){
+    .overlay p{
+        color:white;
+        font-size: 15px;
+        font-weight: 500;
+        position: absolute;
+        bottom: 35%;
+      
+      }
+  }
+
+  @media screen and (max-width: 375px){
+
+    .sectors{
+        left:-18%;
+        top: 40%;
+    }
+
+    .overlay p{
+        color:white;
+        font-size: 12px;
+        font-weight: 500;
+        position: absolute;
+        bottom: 45%;
+      
+      }
+
+
+  }
+
+  @media screen and (max-width: 300px){
+    .sectors{
+        display: none;
+    }
+
+    .what_container_custom{
+        width: 100%;
+    }
+
+    .short_container_custom{
+        width: 95%;
+    }
+
+    .product-image img{
+        width: 95vw;        
+      }
+
+      
+.overlay p{
+    color:white;
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 10px;
+    left: 35px;
+    padding: 4px 6px;
+  
+  }
+  }
+
+
+
+
+ 
