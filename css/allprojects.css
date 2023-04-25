@@ -117,6 +117,7 @@ html{
     overflow: hidden;
     border-bottom-left-radius: 100%;
     transition: width 0.5s, height 0.5s border-radius 0.5s;
+    
 }
 
 .menu-box.open-menu{
@@ -242,6 +243,11 @@ html{
    display: grid;
   grid-template-columns: auto auto auto;
   gap: 10px;
+  z-index: -20;
+}
+
+.box{
+    z-index: -20;
 }
 
 
@@ -435,10 +441,18 @@ right: 0;
     }
 }
 
+@media screen and (max-width: 420px){
+    .navbar_container_custom h1 a{
+        font-size: 2rem;      
+    
+}
+
 @media screen and (max-width: 360px){
     .navbar_container_custom h1{
         font-size: 2rem;
     }
+}
+
 }
 
 
