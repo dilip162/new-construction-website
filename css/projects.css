@@ -419,10 +419,16 @@ html{
         
     }
 
-    .navbar_container_custom h1{
-        font-size: 2rem;
-    }
   }
+
+  @media screen and (max-width: 655px){  
+
+  .navbar_container_custom h1{
+    font-size: 2rem;
+}
+
+}
+  
 
 
   

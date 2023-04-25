@@ -271,7 +271,7 @@ button span:hover{
 
 .carousel{
     margin-bottom: 3rem;
-    z-index: -20;
+    /* z-index: -20; */
 }
 
 
@@ -373,3 +373,11 @@ button span:hover{
 
 
 }
+
+@media screen and (max-width: 420px){  
+
+    .navbar_container_custom h1{
+      font-size: 2rem;
+  }
+  
+  }

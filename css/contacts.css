@@ -62,7 +62,7 @@ html{
   font-size: 4rem;
 }
 
-.navbar_container_custom h1{
+.navbar_container_custom a h1{
     font-size: 4rem;
     color: black;
     font-weight: 600;
@@ -436,4 +436,12 @@ html{
     margin: 0.5rem 0;
   }
 
+  }
+
+  @media screen and (max-width: 655px){  
+
+    .navbar_container_custom a h1{
+      font-size: 2rem;
+  }
+  
   }

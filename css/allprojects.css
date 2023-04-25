@@ -45,7 +45,7 @@ html{
 /* ################# Navbar ################## */
 
 .navbar{
-    
+   
 }
 
 .navbar_container_custom{
@@ -62,11 +62,12 @@ html{
   font-size: 4rem;
 }
 
-.navbar_container_custom h1{
+.navbar_container_custom h1 a{
     font-size: 4rem;
     color: black;
     font-weight: 600;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .navbar_container_custom ul{
@@ -116,6 +117,7 @@ html{
     overflow: hidden;
     border-bottom-left-radius: 100%;
     transition: width 0.5s, height 0.5s border-radius 0.5s;
+    
 }
 
 .menu-box.open-menu{
@@ -136,7 +138,6 @@ html{
     list-style: none;
     margin: 20px;
     align-items: center;
-
     opacity: 0;
     transform: translateY(30px);
 }
@@ -210,6 +211,7 @@ html{
 .top_part{  
     width: 100%;
     padding: 4rem 4rem 0rem 4rem;
+    /* z-index: -15; */
 }
 
 .top_part a{
@@ -241,6 +243,11 @@ html{
    display: grid;
   grid-template-columns: auto auto auto;
   gap: 10px;
+  z-index: -20;
+}
+
+.box{
+    /* z-index: -20; */
 }
 
 
@@ -376,6 +383,10 @@ right: 0;
             padding: 0 3rem; 
             width: 75px;      
         }
+
+        .box{
+            margin: 2rem 0;
+        }
   }
 
   @media screen and (max-width: 850px) {
@@ -410,12 +421,12 @@ right: 0;
 
     .top_part_container{
         grid-template-columns: 1fr;
-        gap: 10px;
+        gap: 0px;
       }
 
       .top_part {
         width: 100%;
-        padding: 3rem 2rem;
+        padding: 2rem 2rem;
     }
 
       .box{
@@ -434,10 +445,18 @@ right: 0;
     }
 }
 
+@media screen and (max-width: 420px){
+    .navbar_container_custom h1 a{
+        font-size: 2rem;      
+    
+}
+
 @media screen and (max-width: 360px){
     .navbar_container_custom h1{
         font-size: 2rem;
     }
+}
+
 }
 
 

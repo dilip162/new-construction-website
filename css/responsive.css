@@ -302,6 +302,10 @@
        width: 45vw; 
        height: 20rem;  
      }
+
+     .navbar_container_custom h1 a{
+        font-size: 2rem;
+     }
   }
 
   @media screen and (max-width: 375px){
@@ -318,6 +322,11 @@
         position: absolute;
         bottom: 45%;
       
+      }
+
+      .copyright h2{
+        border: none;
+        text-align: center;
       }
 
 

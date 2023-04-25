@@ -57,7 +57,9 @@ function responsive(){
     }
 }
 
+responsive();
 
-responsive()
+const desc=document.getElementsByClassName('page_desc')
+console.log(desc)
 
        

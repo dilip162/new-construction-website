@@ -419,6 +419,15 @@ top: 0;
 }
 
 
+@media screen and (max-width: 420px){  
+
+    .navbar_container_custom h1{
+      font-size: 2rem;
+  }
+  
+  }
+
+
 
 
 
