@@ -375,11 +375,6 @@ button span:hover{
 }
 
 @media screen and (max-width:400) {
-    .navbar_container_custom h1 {
-        font-size: 2rem;
-        
-    }
-
     #menuIcon {
         width: 40px;
         
