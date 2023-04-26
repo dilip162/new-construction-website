@@ -64,7 +64,13 @@ html{
     font-size: 4rem;
     color: black;
     font-weight: 600;
-    cursor: pointer;
+}
+
+.navbar_container_custom h1 a{
+    
+    color: black;
+    text-decoration: none;
+    
 }
 
 .navbar_container_custom ul{
@@ -143,7 +149,7 @@ html{
     display: inline-block;
     text-decoration: none;
     color: white;
-    font-size: 50px;
+    font-size: 4rem;
     font-weight: 600;
     position: relative;
     transition: text-shadow 0.5s, transform 0.5s;

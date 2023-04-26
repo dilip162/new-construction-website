@@ -146,7 +146,7 @@ html{
     display: inline-block;
     text-decoration: none;
     color: white;
-    font-size: 50px;
+    font-size: 4rem;
     font-weight: 600;
     position: relative;
     transition: text-shadow 0.5s, transform 0.5s;
@@ -246,9 +246,7 @@ html{
   z-index: -20;
 }
 
-.box{
-    /* z-index: -20; */
-}
+
 
 
 
@@ -283,6 +281,7 @@ html{
 #projects_category option:hover{
     background-color: blue;
 }
+
 .box{
     height: 350px;
     margin: 5px;
@@ -398,6 +397,7 @@ right: 0;
     .top_part_container{
        grid-template-columns: 1fr 1fr;
        gap: 10px;
+       /* z-index: -10; */
      }
 }
 

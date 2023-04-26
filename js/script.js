@@ -19,6 +19,7 @@ productContainers.forEach((item, i) => {
 
 let menuBox=document.getElementById('menuBox')
         let menuIcon=document.getElementById('menuIcon')
+        let topPartContainer=document.querySelector('.top_part_container')
 
         menuIcon.onclick=function(){
             menuBox.classList.toggle('open-menu')
@@ -27,13 +28,13 @@ let menuBox=document.getElementById('menuBox')
             if(menuBox.classList.contains('open-menu')){
                 menuIcon.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVZEF2_1HsG3EHZDKGJmmtMl2OYbKzWeP9u6v4J9H5mrsye-42lvNTWpXLumQZmvWVTWA&usqp=CAU"           
                 
-
+                topPartContainer.style.display='none'
 
             }
             else{
                 menuIcon.src="https://w7.pngwing.com/pngs/616/930/png-transparent-hamburger-button-computer-icons-menu-bar-line-thumbnail.png"
 
-
+                topPartContainer.style.display='block'
             }
         
         } 
@@ -59,7 +60,15 @@ function responsive(){
 
 responsive();
 
-const desc=document.getElementsByClassName('page_desc')
-console.log(desc)
+const appleBtn = document.getElementById('apple')
+const orangeBtn = document.getElementById('orange')
+const select = document.querySelector('select')
+appleBtn.addEventListener('click', () => {
+  select.value = 'apple'
+})
+orangeBtn.addEventListener('click', () => {
+  select.value = 'orange'
+})
+
 
        

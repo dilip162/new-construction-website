@@ -145,7 +145,7 @@ html{
     display: inline-block;
     text-decoration: none;
     color: white;
-    font-size: 50px;
+    font-size: 4rem;
     font-weight: 600;
     position: relative;
     transition: text-shadow 0.5s, transform 0.5s;
@@ -359,25 +359,37 @@ button span:hover{
 }
 
 @media screen and (max-width: 650px) {
-.side_bar{        
-    padding: 0 0.5rem;
-    width: 25px;     
-}
+
+.top_part {
+    width: 100%;
+    padding: 4rem 1rem 2rem 1rem;
 }
 
-@media screen and (max-width: 650px) {
 .side_bar{        
     padding: 0;
     width:0;     
 }
-
-
+.navbar_container_custom h1{
+    font-size: 2rem;
+}
 }
 
-@media screen and (max-width: 420px){  
+@media screen and (max-width:400) {
+    .navbar_container_custom h1 {
+        font-size: 2rem;
+        
+    }
 
-    .navbar_container_custom h1{
-      font-size: 2rem;
-  }
-  
-  }
+    #menuIcon {
+        width: 40px;
+        
+    }
+}
+
+@media screen and (max-width: 360px){
+    
+    .top_part_container h1 {
+        font-size: 25px;
+        
+}
+}

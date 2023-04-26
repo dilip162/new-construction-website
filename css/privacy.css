@@ -145,7 +145,7 @@ html{
     display: inline-block;
     text-decoration: none;
     color: white;
-    font-size: 50px;
+    font-size: 4rem;
     font-weight: 600;
     position: relative;
     transition: text-shadow 0.5s, transform 0.5s;

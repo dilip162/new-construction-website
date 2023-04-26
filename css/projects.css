@@ -67,6 +67,11 @@ html{
     cursor: pointer;
 }
 
+.navbar_container_custom h1 a{
+    text-decoration: none;
+    color: black;
+}
+
 .navbar_container_custom ul{
     display: flex;
     justify-content: center;
@@ -143,7 +148,7 @@ html{
     display: inline-block;
     text-decoration: none;
     color: white;
-    font-size: 50px;
+    font-size: 4rem;
     font-weight: 600;
     position: relative;
     transition: text-shadow 0.5s, transform 0.5s;
@@ -427,6 +432,20 @@ html{
     font-size: 2rem;
 }
 
+
+
+}
+
+@media screen and (max-width: 440px){
+    .navbar_container_custom h1 {
+        font-size: 2rem;
+        
+    }
+
+    #menuIcon {
+        width: 30px;
+       
+    }
 }
   
 
